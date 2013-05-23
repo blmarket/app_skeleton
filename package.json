@@ -1,0 +1,22 @@
+{
+  "name": "app-skeleton",
+  "version": "0.0.0",
+  "description": "App skeleton",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "repository": "",
+  "author": "blmarket",
+  "license": "BSD",
+  "dependencies": {
+    "coffee-script": "~1.6.2",
+    "request": "~2.21.0",
+    "express": "~3.2.5",
+    "jade": "~0.30.0",
+    "redis": "~0.8.3",
+    "connect-redis": "~1.4.5",
+    "hiredis": "~0.1.15"
+  },
+  "devDependencies": {}
+}

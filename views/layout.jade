@@ -1,0 +1,29 @@
+doctype 5
+html(ng-app)
+  head
+    meta(charset="utf-8")
+    title TODO: TITLE SHOULD BE HERE
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css")
+    style(type="text/css")
+      body {
+        padding-top: 60px;
+      }
+    block stylesheets
+
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.brand(href="/") Brand
+          ul.nav
+            li.active: a(href="/login") Login
+            li: a(href="/profile") profile
+    .container
+      block contents
+
+    // scripts start here
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js")
+    script(src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js")
+
+    block scripts
